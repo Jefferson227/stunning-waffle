@@ -1,0 +1,61 @@
+@font-face {
+  font-family: PressStart2P;
+  src: url(fonts/PressStart2P.woff);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: PressStart2P;
+  font-size: 9px;
+  background-color: green;
+  color: yellow;
+}
+
+.timeboard {
+  background-color: yellow;
+  width: 0%;
+  color: green;
+}
+
+.scoreboard {
+  padding-top: 5px;
+}
+
+.match {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.match .team {
+  width: 37%;
+  margin: 0px 5px 0px 5px;
+  padding: 2px 0px 2px 0px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.match .home-team {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.match .home-team.sao-paulo {
+  background-color: red;
+  color: white;
+  border-color: white;
+}
+
+.match .visitor-team {
+  background-color: blue;
+  color: white;
+  border-color: red;
+}
+
+.match .visitor-team.corinthians {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
