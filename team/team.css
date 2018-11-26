@@ -12,6 +12,10 @@ body {
   color: yellow;
 }
 
+section > .title {
+  text-align: center;
+}
+
 .team {
   margin: 10px;
   border: 2px solid;
@@ -19,6 +23,35 @@ body {
 
 .team .info {
   border-bottom: 2px solid;
+}
+
+.team .info.match-stats {
+  padding: 10px;
+}
+
+.team .info .stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.team .info .stats .team-stats {
+  width: 43%;
+  padding: 2px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.team .info .stats .home-team {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.team .info .stats .visitor-team {
+  background-color: blue;
+  color: white;
+  border-color: red;
 }
 
 .team .info .selected-team {
